@@ -9,5 +9,5 @@ time.sleep(2)
 
 a = ser.readline()  #Read line from Serial Monitor
 a = a.decode()
-a = a.rstrip()
+a = a.rstrip()     # Stripping of all whitespaces and new line characters in the end of string
 print(a)   #It will print HI
