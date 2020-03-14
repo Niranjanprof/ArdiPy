@@ -1,5 +1,7 @@
 import serial  # pip install serial   or pip install pyserial in    cmd or terminal or pycharm virtual terminal
 import time
+
+# ser is a filehandler
 ser = serial.Serial('COM6',9600)   #specify your port
 
 time.sleep(2)
